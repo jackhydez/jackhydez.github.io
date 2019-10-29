@@ -17,10 +17,10 @@ function myClock() {
   }
 
   if (time.getHours() < 12) {
-    var clockStr = h + ":" + m + ":" + s + " am";
+    var clockStr = h + ":" + m + ":" + s + "am";
     clock.textContent = clockStr;
   } else {
-    var clockStr = h + ":" + m + ":" + s + " pm";
+    var clockStr = h + ":" + m + ":" + s + "pm";
     clock.textContent = clockStr;
   }
 
