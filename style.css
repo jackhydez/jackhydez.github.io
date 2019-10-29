@@ -9,6 +9,9 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
 }
 
+#clock {
+  text-transform: none;
+}
 #wrapper {
   position: absolute;
 /*  left: 0;
@@ -44,7 +47,7 @@ h1 {
   font-weight: 700;
   font-size: 30px;
   letter-spacing: 9px;
-  text-transform: uppercase;
+  text-transform: none;
   margin: 12px 0;
   left: 4px;
   color: #EEE;
