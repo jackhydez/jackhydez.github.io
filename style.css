@@ -11,16 +11,22 @@ body {
 
 #wrapper {
   position: absolute;
-  left: 0;
+/*  left: 0;
   width: 320px;
+  border: solid; */
+  width: 80vw;
+  height: 80vh;
   text-align: center;
-  top: 50%;
-  left: 50%;
+  top: 15vh;
+  left: 10vw;
+  /*
   margin-left: -160px;
   margin-top: -160px;
+  /*
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+  */
 }
 
 a {
@@ -53,25 +59,39 @@ h2 {
   left: 3px;
 }
 
-h1,
+h1 {
+  line-height: 10vh;
+  font-size: 4vh;
+}
+
 h2 {
+  font-size: 3vh;
   position: relative;
 }
 
 p {
+  /*
   font-size: 14px;
+  */
+  font-size: 3vh;
   line-height: 2em;
   margin: 0;
   letter-spacing: 2px;
 }
 
 #flow span {
+  /*
   width: 200vw;
   height: 200vw;
+  */
+  width: 100vw;
+  height: 110vw;
   position: absolute;
-  top: -180vw;
-  left: -50vw;
-  border-radius: 90vw;
+  /*top: -180vw;
+  left: -50vw; */
+  top: -70vw;
+  left: 0vw;
+  border-radius: 100vw;
   opacity: 0.6;
 }
 
