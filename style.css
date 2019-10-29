@@ -9,12 +9,6 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
 }
 
-#clock {
-  position: inherit;
-  text-transform: none;
-  color: #FFF;
-}
-
 #wrapper {
   position: absolute;
 /*  left: 0;
@@ -50,7 +44,7 @@ h1 {
   font-weight: 700;
   font-size: 30px;
   letter-spacing: 9px;
-  text-transform: none;
+  text-transform: uppercase;
   margin: 12px 0;
   left: 4px;
   color: #EEE;
@@ -86,18 +80,17 @@ p {
 }
 
 #flow span {
-  overflow: scroll;
   /*
   width: 200vw;
   height: 200vw;
   */
-  width: 75vw;
-  height: 80vw;
+  width: 100vw;
+  height: 110vw;
   position: absolute;
   /*top: -180vw;
   left: -50vw; */
-  top: 30vw;
-  left: 15vw;
+  top: -70vw;
+  left: 0vw;
   border-radius: 100vw;
   opacity: 0.6;
 }
