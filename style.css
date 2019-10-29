@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-  color: #f33;
+  color: #f442ee;
 }
 
 h1 {
@@ -49,6 +49,7 @@ h2 {
 }
 
 h1 {
+  color: #EEE;
   line-height: 6vh;
   font-size: 4vh;
 }
