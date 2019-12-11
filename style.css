@@ -81,6 +81,12 @@ p {
   opacity: 0.6;
 }
 
+/*
+lol{
+  background: #32a3ff;
+}
+*/
+
 .flow-1 {
   background: #3281ff;
   -webkit-animation: rotating 20s linear infinite;
