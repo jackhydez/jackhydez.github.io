@@ -1,5 +1,5 @@
 html, body {
-  overflow-y: hidden;
+  overflow: hidden;
   margin: 0;
   touch-action: none;
 }
@@ -81,11 +81,7 @@ p {
   opacity: 0.6;
 }
 
-/*
-lol{
-  background: #32a3ff;
-}
-*/
+/* #4cacfc */
 
 .flow-1 {
   background: #3281ff;
