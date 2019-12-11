@@ -9,6 +9,11 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
 }
 
+#clock {
+  font-size: 23px;
+  color: #EEE;
+}
+
 #wrapper {
   position: absolute;
   width: 80vw;

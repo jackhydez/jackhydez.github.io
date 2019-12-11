@@ -1,4 +1,3 @@
-/*
 var clock = document.getElementById('clock');
 
 function myClock() {
@@ -6,6 +5,15 @@ function myClock() {
   var h = (time.getHours() % 12).toString();
   var m = time.getMinutes().toString();
   var s = time.getSeconds().toString();
+  var x = 'p';
+
+  if (time.getHours() < 12) {
+    x = 'a';
+  }
+
+  if (h == '0') {
+    h = '12';
+  }
 
   if (h.length < 2) {
     h = '0' + h;
@@ -17,11 +25,10 @@ function myClock() {
     s = '0' + s;
   }
 
-  var clockStr = h + ":" + m + ":" + s;
+  var clockStr = h + ":" + m + ":" + s + " " + x + "m";
   clock.textContent = clockStr;
 
 }
 
 myClock();
 setInterval(myClock, 1000);
-*/
