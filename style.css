@@ -21,6 +21,7 @@ body {
   text-align: center;
   top: 15vh;
   left: 10vw;
+  overflow: hidden;
 }
 
 a {
