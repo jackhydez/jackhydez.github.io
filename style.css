@@ -10,11 +10,10 @@ body {
 }
 
 .unselectable {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Chrome/Safari/Opera */
-  -khtml-user-select: none;    /* Konqueror */
-  -moz-user-select: none;      /* Firefox */
-  -ms-user-select: none;       /* Internet Explorer/Edge */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none; 
 }
 
@@ -29,7 +28,7 @@ body {
   width: 80vw;
   height: 80vh;
   text-align: center;
-  top: 15vh;
+  top: 10vh;
   left: 10vw;
   overflow: hidden;
 }
