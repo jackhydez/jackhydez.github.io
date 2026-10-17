@@ -10,48 +10,49 @@
 </head>
 
 <body>
-  <div id="flow">
+  <div id="flow" aria-hidden="true">
     <span class="flow-1"></span>
     <span class="flow-2"></span>
     <span class="flow-3"></span>
   </div>
-  <div id="wrapper">
+  <main id="wrapper">
     <h1 class="unselectable">Pavel Krupin</h1>
     <h2 class="unselectable">golang developer</h2>
     <p>
-      <a href="https://vk.com/krupinpavel" target="_blank">Vkontakte</a>
+      <a href="https://vk.com/krupinpavel" target="_blank" rel="noopener noreferrer">Vkontakte</a>
     </p>
     <p>
-      <a href="https://www.facebook.com/profile.php?id=100006690666218" target="_blank">Facebook</a>
+      <a href="https://www.facebook.com/profile.php?id=100006690666218" target="_blank" rel="noopener noreferrer" aria-describedby="social-note">Facebook<sup><svg class="asterisk" viewBox="0 0 12 12" role="img" aria-label="*"><path d="M6 1v10M1.67 3.5l8.66 5M1.67 8.5l8.66-5"/></svg></sup></a>
     </p>
     <p>
-      <a href="https://www.instagram.com/jackhydez/" target="_blank">Instagram</a>
+      <a href="https://www.instagram.com/jackhydez/" target="_blank" rel="noopener noreferrer" aria-describedby="social-note">Instagram<sup><svg class="asterisk" viewBox="0 0 12 12" role="img" aria-label="*"><path d="M6 1v10M1.67 3.5l8.66 5M1.67 8.5l8.66-5"/></svg></sup></a>
     </p>
     <p>
-      <a href="https://t.me/jackhydez" target="_blank">Telegram</a>
+      <a href="https://t.me/jackhydez" target="_blank" rel="noopener noreferrer">Telegram</a>
     </p>
     <p>
-      <a href="https://open.spotify.com/user/yq6x5qhyaciiijaxe88kiqhy4?si=OhaMrQMuTWyqRAH9SgvHhg" target="_blank">Spotify</a>
+      <a href="https://open.spotify.com/user/yq6x5qhyaciiijaxe88kiqhy4?si=OhaMrQMuTWyqRAH9SgvHhg" target="_blank" rel="noopener noreferrer">Spotify</a>
     </p>
     <p>
-      <a href="https://twitter.com/jackhydez" target="_blank">Twitter</a>
+      <a href="https://twitter.com/jackhydez" target="_blank" rel="noopener noreferrer">Twitter (X)</a>
     </p>
     <p>
-      <a href="https://github.com/jackhydez" target="_blank">GitHub</a>
+      <a href="https://github.com/jackhydez" target="_blank" rel="noopener noreferrer">GitHub</a>
     </p>
     <p>
-      <a href="https://leetcode.com/jackhydez/" target="_blank">LeetCode</a>
+      <a href="https://leetcode.com/jackhydez/" target="_blank" rel="noopener noreferrer">LeetCode</a>
     </p>
     <p>
-      <a href="https://www.codewars.com/users/jackhydez" target="_blank">CodeWars</a>
+      <a href="https://www.codewars.com/users/jackhydez" target="_blank" rel="noopener noreferrer">CodeWars</a>
     </p>
     <p>
-      <a href="https://www.hackerrank.com/jackhydez" target="_blank">HackerRank</a>
+      <a href="https://www.hackerrank.com/jackhydez" target="_blank" rel="noopener noreferrer">HackerRank</a>
     </p>
     <p class="unselectable" id="clock">
       00:00:00 a.m.
     </p>
-  </div>
+    <p id="social-note" lang="ru"><span class="note-marker"><svg class="asterisk" viewBox="0 0 12 12" role="img" aria-label="*"><path d="M6 1v10M1.67 3.5l8.66 5M1.67 8.5l8.66-5"/></svg></span> <strong>Facebook</strong> и <strong>Instagram</strong> принадлежат компании <strong>Meta Platforms Inc.</strong>, признанной экстремистской организацией, деятельность которой запрещена в РФ.</p>
+  </main>
   <script src="app.js"></script>
 </body>
 
